@@ -1,0 +1,19 @@
+.main-section {
+    padding: 0 10%;
+    
+    &__title {
+        text-align: center;
+        font-weight: 400;
+        font-size: x-large;
+        margin: 1em 0;
+    }
+
+    &__preview {
+        width: 100%;
+        padding: 5% 0;
+    }
+
+    &__video-title {
+        font-weight: 700;
+    }
+}

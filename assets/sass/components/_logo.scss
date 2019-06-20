@@ -1,0 +1,15 @@
+.logo {
+    font-family: Futura;
+    font-weight: $light;
+    margin: 0;
+    text-align: right;
+
+    span {
+        font-family: $inconsolata;
+        font-size: small;
+        position: relative;
+        float: right;
+        bottom: 23%;
+        right: 2%;
+    }
+}
