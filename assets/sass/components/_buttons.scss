@@ -3,9 +3,24 @@
 }
 
 @media (min-width: 992px) {
-    .blue-btn {
-        background: aqua;
+    .buttons {
+        display: initial;
+    }
+    
+    .button {
         color: white;
+        padding: .5rem 1rem;
+        border: none;
+        font-weight: lighter;
+    }
+    
+    .blue-btn {
+        background: #7EE0E7;
+        margin-right: .5rem;
+    }
+
+    .red-btn {
+        background: #FF4A56;
     }
 
 }

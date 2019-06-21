@@ -1,4 +1,23 @@
+/* icons */ 
+
+.xs-hide {
+    display: none;
+    font-size: x-large;
+}
+
 .fa-bars {
     font-size: xx-large;
     color: #605D5D;
+}
+
+@media (min-width: 992px) {
+
+    .xs-hide {
+        display: initial;
+        margin-right: 1rem; 
+    }
+
+    .fa-bars {
+        font-size: x-large;
+    }
 }

@@ -21,5 +21,13 @@
 @media (min-width: 992px) {
     .main-section {
         padding: 0;
+
+        &__title {
+            text-align: left;
+        }
+
+        &__video-title {
+            font-size: 100%;
+        }
     }
 }
