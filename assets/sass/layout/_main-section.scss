@@ -3,7 +3,7 @@
     
     &__title {
         text-align: center;
-        font-weight: 400;
+        font-weight: 500;
         font-size: x-large;
         margin: 1em 0;
     }
@@ -15,5 +15,11 @@
 
     &__video-title {
         font-weight: 700;
+    }
+}
+
+@media (min-width: 992px) {
+    .main-section {
+        padding: 0;
     }
 }

@@ -10018,7 +10018,7 @@ p {
 }
 .main-section__title {
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
   font-size: x-large;
   margin: 1em 0;
 }
@@ -10030,23 +10030,35 @@ p {
   font-weight: 700;
 }
 
+@media (min-width: 992px) {
+  .main-section {
+    padding: 0;
+  }
+}
 .fa-bars {
   font-size: xx-large;
 }
 
-.logo {
+.logo__main {
+  width: 120px;
   font-family: Futura;
   font-weight: 300;
-  margin: 0;
-  text-align: right;
+  margin-left: 0;
 }
-.logo span {
+.logo__main h1 {
+  margin: 0 20px;
+  padding: 0;
+  font-size: 222%;
+}
+.logo__secondary {
+  width: 155px;
   font-family: "Inconsolata", monospace;
   font-size: small;
+  margin: 0;
+  padding: 0;
   position: relative;
-  float: right;
-  bottom: 23%;
-  right: 2%;
+  right: 0;
+  top: 8px;
 }
 
 .banner {
@@ -10057,16 +10069,33 @@ p {
   background-position-y: 52%;
 }
 
+.user {
+  display: flex;
+  justify-content: center;
+}
 .user__thumbnail {
   border-radius: 50%;
   width: 70px;
   height: 70px;
   object-fit: cover;
 }
+.user__data {
+  margin-left: 1em;
+  margin-top: 0.5em;
+}
+.user__data h3, .user__data p {
+  margin: 0;
+}
 
-.blue-btn {
-  background: aqua;
-  color: white;
+.buttons {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .blue-btn {
+    background: aqua;
+    color: white;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

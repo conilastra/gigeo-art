@@ -1,4 +1,13 @@
-.blue-btn {
-    background: aqua;
-    color: white;
+.buttons {
+    display: none;
 }
+
+@media (min-width: 992px) {
+    .blue-btn {
+        background: aqua;
+        color: white;
+    }
+
+}
+
+

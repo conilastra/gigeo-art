@@ -1,0 +1,22 @@
+.user {
+    display: flex;
+    justify-content: center;
+
+    &__thumbnail {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        object-fit: cover; 
+    }
+
+    &__data {
+        margin-left: 1em;
+        margin-top: .5em;
+
+        h3, p {
+            margin: 0;
+        }
+    }
+}
+
+

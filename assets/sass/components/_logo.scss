@@ -1,15 +1,28 @@
 .logo {
-    font-family: Futura;
-    font-weight: $light;
-    margin: 0;
-    text-align: right;
 
-    span {
+    &__main {
+        width: 120px;
+        font-family: Futura;
+        font-weight: $light;
+        margin-left: 0;
+        
+        h1 {
+            margin: 0 20px;
+            padding: 0;
+            font-size: 222%;
+        }
+
+    }
+
+    &__secondary {
+        width: 155px;
         font-family: $inconsolata;
         font-size: small;
+        margin: 0;
+        padding: 0;
         position: relative;
-        float: right;
-        bottom: 23%;
-        right: 2%;
+        right: 0;
+        top: 8px;
+        
     }
 }
