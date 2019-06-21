@@ -10000,7 +10000,7 @@ h2, h3, h4, h5, h6 {
 
 p {
   font-family: "Open Sans", sans-serif;
-  color: #4C4C4C;
+  color: #605D5D;
 }
 
 .user__name {
@@ -10037,6 +10037,7 @@ p {
 }
 .fa-bars {
   font-size: xx-large;
+  color: AAA9A9;
 }
 
 .logo__main {
@@ -10085,6 +10086,9 @@ p {
 }
 .user__data h3, .user__data p {
   margin: 0;
+}
+.user__data p {
+  color: #AAA9A9;
 }
 
 .buttons {
