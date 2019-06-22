@@ -1,12 +1,10 @@
 .icons {
     margin-top: 1rem;
+    margin-right: 0;
     padding: 0;
-}
-
-.xs-hide {
-    display: none;
     font-size: x-large;
 }
+
 
 .fa-bars {
     font-size: xx-large;
@@ -14,11 +12,6 @@
 }
 
 @media (min-width: 992px) {
-
-    .xs-hide {
-        display: initial;
-        margin-right: 1rem; 
-    }
 
     .fa-bars {
         font-size: x-large;

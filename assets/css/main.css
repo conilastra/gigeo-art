@@ -10043,11 +10043,8 @@ p {
 }
 .icons {
   margin-top: 1rem;
+  margin-right: 0;
   padding: 0;
-}
-
-.xs-hide {
-  display: none;
   font-size: x-large;
 }
 
@@ -10057,23 +10054,20 @@ p {
 }
 
 @media (min-width: 992px) {
-  .xs-hide {
-    display: initial;
-    margin-right: 1rem;
-  }
-
   .fa-bars {
     font-size: x-large;
   }
+}
+.logo {
+  margin-left: 2rem;
 }
 .logo__main {
   width: 120px;
   font-family: Futura;
   font-weight: 300;
-  margin-left: 0;
 }
 .logo__main h1 {
-  margin: 0 20px;
+  margin: 0;
   padding: 0;
   font-size: 222%;
 }
@@ -10082,12 +10076,17 @@ p {
   font-family: "Inconsolata", monospace;
   font-size: small;
   margin: 0;
-  padding: 0;
+  padding-right: 30px;
   position: relative;
   right: 0;
   top: 8px;
 }
 
+@media (min-width: 992px) {
+  .logo {
+    margin-left: 0;
+  }
+}
 .banner {
   background-image: url(../img/image-banner.png);
   background-repeat: no-repeat;
@@ -10148,7 +10147,6 @@ p {
 
 .red-btn {
   background: #FF4A56;
-  margin-left: 0.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */

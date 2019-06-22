@@ -1,13 +1,13 @@
 .logo {
+    margin-left: 2rem;
 
     &__main {
         width: 120px;
         font-family: Futura;
         font-weight: $light;
-        margin-left: 0;
         
         h1 {
-            margin: 0 20px;
+            margin: 0;
             padding: 0;
             font-size: 222%;
         }
@@ -19,10 +19,17 @@
         font-family: $inconsolata;
         font-size: small;
         margin: 0;
-        padding: 0;
+        padding-right: 30px;
         position: relative;
         right: 0;
         top: 8px;
         
+    }
+}
+
+@media (min-width: 992px) {
+
+    .logo {
+        margin-left: 0;
     }
 }
