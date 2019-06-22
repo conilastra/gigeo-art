@@ -10045,7 +10045,13 @@ p {
   margin-top: 1rem;
   margin-right: 0;
   padding: 0;
+}
+
+.fas, .far {
   font-size: x-large;
+}
+.fas:hover, .far:hover {
+  color: greenyellow;
 }
 
 .fa-bars {
@@ -10139,6 +10145,9 @@ p {
   padding: 0.5rem 1rem;
   border: none;
   font-weight: lighter;
+}
+.button:hover {
+  background: greenyellow;
 }
 
 .blue-btn {

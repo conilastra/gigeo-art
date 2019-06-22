@@ -2,9 +2,15 @@
     margin-top: 1rem;
     margin-right: 0;
     padding: 0;
-    font-size: x-large;
 }
 
+.fas, .far {
+    font-size: x-large;
+
+    &:hover {
+        color: greenyellow;
+    }
+}
 
 .fa-bars {
     font-size: xx-large;

@@ -3,6 +3,10 @@
     padding: .5rem 1rem;
     border: none;
     font-weight: lighter;
+
+    &:hover {
+        background: greenyellow;
+    }
 }
 
 .blue-btn {
