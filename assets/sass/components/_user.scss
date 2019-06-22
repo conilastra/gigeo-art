@@ -1,12 +1,17 @@
 .user {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 
     &__thumbnail {
         border-radius: 50%;
         width: 70px;
         height: 70px;
-        object-fit: cover; 
+        -o-object-fit: cover;
+           object-fit: cover; 
     }
 
     &__data {
@@ -27,7 +32,9 @@
 @media (min-width: 992px) {
 
     .user {
-        justify-content: left;
+        -webkit-box-pack: left;
+            -ms-flex-pack: left;
+                justify-content: left;
     }
 }
 
