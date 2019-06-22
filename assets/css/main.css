@@ -10042,6 +10042,11 @@ p {
   }
 }
 /* icons */
+.icons {
+  margin-top: 1rem;
+  padding: 0;
+}
+
 .xs-hide {
   display: none;
   font-size: x-large;
@@ -10142,11 +10147,11 @@ p {
 
   .blue-btn {
     background: #7EE0E7;
-    margin-right: 0.5rem;
   }
 
   .red-btn {
     background: #FF4A56;
+    margin-left: 0.5rem;
   }
 }
 

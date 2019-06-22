@@ -1,28 +1,18 @@
-.buttons {
-    display: none;
+.button {
+    color: white;
+    padding: .5rem 1rem;
+    border: none;
+    font-weight: lighter;
 }
 
-@media (min-width: 992px) {
-    .buttons {
-        display: initial;
-    }
-    
-    .button {
-        color: white;
-        padding: .5rem 1rem;
-        border: none;
-        font-weight: lighter;
-    }
-    
-    .blue-btn {
-        background: #7EE0E7;
-        margin-right: .5rem;
-    }
-
-    .red-btn {
-        background: #FF4A56;
-    }
-
+.blue-btn {
+    background: #7EE0E7;
 }
+
+.red-btn {
+    background: #FF4A56;
+    margin-left: .5rem;
+}
+
 
 
